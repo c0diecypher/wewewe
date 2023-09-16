@@ -1,0 +1,54 @@
+:root {
+  --space-4x: 16px;
+  --space-6x: 0%;
+  --space-8x: 32px;
+}
+
+.basket-cards {
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: px;
+  margin-top: 10px;
+}
+
+.basket-card {
+  width: 93%;
+
+  background: #ffffff;
+  border-radius: 17px;
+  margin: 6px;
+  padding-bottom: 36px;
+  position: relative;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-top: 4px;
+}
+
+.basket-card img {
+  background: #ffffff;
+  width: 45%;
+  border-radius: 17px;
+  user-select: none;
+}
+
+.basket-card ul {
+  position: absolute;
+  width: 95%;
+  margin-left: 2.5%;
+  background: #393939;
+  border-radius: 17px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  padding: 0;
+}
+
+.basket-card li {
+  list-style-type: none;
+}

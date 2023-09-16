@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+.wrapper__form__container {
+  z-index: 9;
+  width: 100%;
+}
+
+.wrapper__form__container_input_ {
+  position: relative;
+  z-index: 999999;
+  margin-bottom: 12px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.wrapper__form__container_background_ {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  z-index: 999;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.wrapper__form__container_icon_ {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  width: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #393939;
+}
+
+.wrapper__form__container_input_ input {
+  position: relative;
+  font-size: 17px;
+  line-height: 210%;
+  flex: 1 1;
+  width: 100%;
+  padding: 8px 15px 8px 42px;
+  background: #fff;
+  border: none;
+  outline: none;
+  color: #000000;
+  text-align: left;
+}
+
+.wrapper__form__container p {
+  list-style-type: none;
+  font-family: "Roboto";
+  font-size: 16px;
+  text-decoration: none;
+  margin-top: 0px;
+  padding: 0px;
+}
+
+.wrapper__form__container a {
+  text-decoration: none;
+  color: #000;
+}
+
+.wrapper__form__container hr {
+  margin: 15px 0;
+  padding: 0;
+  height: 0;
+  border-top: 2px solid rgb(173, 173, 173);
+}

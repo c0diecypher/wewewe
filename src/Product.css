@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  user-select: none;
+}
+
+body {
+  user-select: none;
+  background-color: #e4e4e4;
+  color: rgb(39, 39, 39);
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.full-item {
+  width: 100%;
+  background: #ffffff;
+  border-radius: 15px;
+  margin: auto;
+  padding-bottom: 38px;
+  position: relative;
+}
+
+.full-item img {
+  background: #ffffff;
+  width: 90%;
+  border-radius: 15px;
+}
+.full-item-price {
+  font-size: 18px;
+  text-align: left;
+  padding-left: 4%;
+  font-weight: 700;
+  margin: 0;
+}
+.full-item-name {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 4%;
+  font-weight: 700;
+  margin-bottom: 8px;
+  margin: 0;
+}
+.full-item li {
+  list-style-type: none;
+}
+.full-item ul {
+  padding-left: 0;
+}
+
+.full-item .add-item {
+  position: absolute;
+  width: 95%;
+  height: 30px;
+  margin-left: 2.5%;
+  background: #393939;
+  border-radius: 13px;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.full-item .hr-line {
+  margin: 20px 0;
+  padding: 0;
+  height: 0;
+  border: none;
+  border-top: 2px solid rgb(224, 224, 224);
+}
